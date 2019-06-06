@@ -212,5 +212,17 @@ public class Main extends JFrame implements {
         jCOffice.setSelected(false);
         jCHome.setSelected(false);
 }
+
+    public void addRows() {
+        Object[] row =null;
+        Details str = list.get(list.size()-1);
+        String string =str.Name + "," + str.OfficeAddress + "," + str.HomeAddress ;
+        jTextArea1.setText(string);
+        row =string.split(",");
+        model.insertRow(0, row);
+
+    }
+
+
 }
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21aa130c-345c-422e-8f46-06a9902ab612" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +17,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="269" column="15" lean-forward="true" selection-start-line="269" selection-start-column="15" selection-end-line="269" selection-end-column="15" />
+            <state relative-caret-position="420">
+              <caret line="212" column="23" selection-start-line="206" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#163#172#0" expanded="true" />
+                <element signature="method#initComponents#0;class#Main#0" />
                 <element signature="e#2192#2193#0" expanded="true" />
                 <element signature="e#2250#2251#0" expanded="true" />
                 <element signature="e#2454#2455#0" expanded="true" />
@@ -31,10 +30,6 @@
                 <element signature="e#2814#2815#0" expanded="true" />
                 <element signature="e#3009#3010#0" expanded="true" />
                 <element signature="e#3069#3070#0" expanded="true" />
-                <element signature="e#11106#11107#0" expanded="true" />
-                <element signature="e#11129#11130#0" expanded="true" />
-                <element signature="e#12020#12021#0" expanded="true" />
-                <element signature="e#12084#12085#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="30" />
+              <caret line="372" column="29" selection-start-line="372" selection-start-column="29" selection-end-line="372" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -230,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559822189100</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Method to display details">
+      <created>1559822612713</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559822612713</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -239,11 +241,11 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49924356" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49924356" visible="true" weight="0.09752322" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.0" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" visible="true" weight="0.09752322" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49848714" weight="0.32972136" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -302,7 +304,8 @@
     <MESSAGE value="Variable declaration" />
     <MESSAGE value="Initialise constractor" />
     <MESSAGE value="Gui component initialisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gui component initialisation" />
+    <MESSAGE value="Method to display details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method to display details" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -311,7 +314,7 @@
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#163#172#0" expanded="true" />
+            <element signature="method#initComponents#0;class#Main#0" />
             <element signature="e#2192#2193#0" expanded="true" />
             <element signature="e#2250#2251#0" expanded="true" />
             <element signature="e#2454#2455#0" expanded="true" />
@@ -320,10 +323,6 @@
             <element signature="e#2814#2815#0" expanded="true" />
             <element signature="e#3009#3010#0" expanded="true" />
             <element signature="e#3069#3070#0" expanded="true" />
-            <element signature="e#11106#11107#0" expanded="true" />
-            <element signature="e#11129#11130#0" expanded="true" />
-            <element signature="e#12020#12021#0" expanded="true" />
-            <element signature="e#12084#12085#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -331,17 +330,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="30" />
+          <caret line="372" column="29" selection-start-line="372" selection-start-column="29" selection-end-line="372" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="269" column="15" lean-forward="true" selection-start-line="269" selection-start-column="15" selection-end-line="269" selection-end-column="15" />
+        <state relative-caret-position="420">
+          <caret line="212" column="23" selection-start-line="206" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#163#172#0" expanded="true" />
+            <element signature="method#initComponents#0;class#Main#0" />
             <element signature="e#2192#2193#0" expanded="true" />
             <element signature="e#2250#2251#0" expanded="true" />
             <element signature="e#2454#2455#0" expanded="true" />
@@ -350,10 +349,6 @@
             <element signature="e#2814#2815#0" expanded="true" />
             <element signature="e#3009#3010#0" expanded="true" />
             <element signature="e#3069#3070#0" expanded="true" />
-            <element signature="e#11106#11107#0" expanded="true" />
-            <element signature="e#11129#11130#0" expanded="true" />
-            <element signature="e#12020#12021#0" expanded="true" />
-            <element signature="e#12084#12085#0" expanded="true" />
           </folding>
         </state>
       </provider>
