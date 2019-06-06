@@ -17,8 +17,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="223" column="5" lean-forward="true" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
+            <state relative-caret-position="1700">
+              <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#371#380#0" expanded="true" />
@@ -31,6 +31,12 @@
                 <element signature="e#2814#2815#0" expanded="true" />
                 <element signature="e#3009#3010#0" expanded="true" />
                 <element signature="e#3069#3070#0" expanded="true" />
+                <element signature="e#11479#11480#0" expanded="true" />
+                <element signature="e#11502#11503#0" expanded="true" />
+                <element signature="e#11578#11579#0" expanded="true" />
+                <element signature="e#11620#11621#0" expanded="true" />
+                <element signature="e#12072#12073#0" expanded="true" />
+                <element signature="e#12136#12137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="367" column="29" selection-start-line="367" selection-start-column="29" selection-end-line="367" selection-end-column="30" />
+              <caret line="387" column="29" selection-start-line="387" selection-start-column="29" selection-end-line="387" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -247,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1559822870038</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Class to hold the details">
+      <created>1559822920076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1559822920076</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Main method">
+      <created>1559822959793</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559822959793</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Function for check boxes">
+      <created>1559823049843</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559823049843</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -323,7 +350,10 @@
     <MESSAGE value="Moth to reset the field" />
     <MESSAGE value="Method to reset the field" />
     <MESSAGE value="Method to add row" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method to add row" />
+    <MESSAGE value="Class to hold the details" />
+    <MESSAGE value="Main method" />
+    <MESSAGE value="Function for check boxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Function for check boxes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -342,6 +372,12 @@
             <element signature="e#2814#2815#0" expanded="true" />
             <element signature="e#3009#3010#0" expanded="true" />
             <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#11479#11480#0" expanded="true" />
+            <element signature="e#11502#11503#0" expanded="true" />
+            <element signature="e#11578#11579#0" expanded="true" />
+            <element signature="e#11620#11621#0" expanded="true" />
+            <element signature="e#12072#12073#0" expanded="true" />
+            <element signature="e#12136#12137#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -349,14 +385,14 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="367" column="29" selection-start-line="367" selection-start-column="29" selection-end-line="367" selection-end-column="30" />
+          <caret line="387" column="29" selection-start-line="387" selection-start-column="29" selection-end-line="387" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="223" column="5" lean-forward="true" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
+        <state relative-caret-position="1700">
+          <caret line="240" column="8" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#371#380#0" expanded="true" />
@@ -369,6 +405,12 @@
             <element signature="e#2814#2815#0" expanded="true" />
             <element signature="e#3009#3010#0" expanded="true" />
             <element signature="e#3069#3070#0" expanded="true" />
+            <element signature="e#11479#11480#0" expanded="true" />
+            <element signature="e#11502#11503#0" expanded="true" />
+            <element signature="e#11578#11579#0" expanded="true" />
+            <element signature="e#11620#11621#0" expanded="true" />
+            <element signature="e#12072#12073#0" expanded="true" />
+            <element signature="e#12136#12137#0" expanded="true" />
           </folding>
         </state>
       </provider>

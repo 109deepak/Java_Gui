@@ -9,19 +9,16 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JPanel;
+import javax.swing.table.DefaultTableModel;
 
 
-public class Main extends JFrame implements {
+public class Main extends JFrame  {
 
     List<Details> list = new ArrayList<Details>();
-
+    DefaultTableModel model;
     JScrollPane scrollpane;
     Object[][] data;
 
-    // Variables declaration - do not modify
-    JTextField JTName, jThome, jToffice;
-    JButton jButton1, jButton2;
-    JCheckBox jCHome, jCOffice;
 
     JLabel jLaddress, jLaname, jLhome, jLoffice;
     JPanel jPanel1;
@@ -31,10 +28,7 @@ public class Main extends JFrame implements {
     JButton jButton1, jButton2;
     JCheckBox jCHome, jCOffice;
 
-    JLabel jLaddress, jLaname, jLhome, jLoffice;
-    JPanel jPanel1;
-    JScrollPane jScrollPane1;
-    JTextArea jTextArea1;
+
 
     // Constructor
     public Main() {
@@ -199,7 +193,13 @@ public class Main extends JFrame implements {
             jThome.setEnabled(false);
         }
     }
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        reset();
+    }
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        save_the_details();
+    }
     private void jCOfficeActionPerformed(java.awt.event.ActionEvent evt) {
         if(jCOffice.isSelected()==true){
             jToffice.setEnabled(true);
