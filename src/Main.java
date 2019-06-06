@@ -1,15 +1,20 @@
-import java.awt.event.ActionListener;
-import  javax.swing.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.table.DefaultTableModel;
 
 
 public class Main extends JFrame implements ActionListener {
 
-    //Declare variables to be used
-    JLabel PizzaTittle, nameLabel, addressLabel, contactLabel;
-    JTextField idField, nameField, addressField, contactField;
-    JButton save, clear;
-    //List to hold the details
     List<Details> list = new ArrayList<Details>();
+    DefaultTableModel model;
+    JScrollPane scrollpane;
+    Object[][] data;
+
+}
 
     class Details {
         String Name;
@@ -25,4 +30,4 @@ public class Main extends JFrame implements ActionListener {
 
         }
     }
-}
+
