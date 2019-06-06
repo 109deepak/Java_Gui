@@ -226,3 +226,18 @@ public class Main extends JFrame implements {
 
 }
 
+class Details {
+    String Name;
+    String OfficeAddress;
+    String HomeAddress;
+
+
+    Details(String name, String Haddress, String Oaddress) {
+        this.Name = name;
+        this.OfficeAddress = Haddress;
+        this.HomeAddress = Oaddress;
+
+
+    }
+}
+
