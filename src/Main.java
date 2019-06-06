@@ -190,6 +190,26 @@ public class Main extends JFrame implements {
     }// </editor-fold>
 
     //method to display the details
+    private void jCHomeActionPerformed(java.awt.event.ActionEvent evt) {
+        if(jCHome.isSelected()==true){
+            jLhome.setEnabled(true);
+            jThome.setEnabled(true);
+        }else{
+            jLhome.setEnabled(false);
+            jThome.setEnabled(false);
+        }
+    }
+
+    private void jCOfficeActionPerformed(java.awt.event.ActionEvent evt) {
+        if(jCOffice.isSelected()==true){
+            jToffice.setEnabled(true);
+            jLoffice.setEnabled(true);
+        }else{
+            jToffice.setEnabled(false);
+            jLoffice.setEnabled(false);
+        }
+    }
+
     private void save_the_details() {
 
         String name = JTName.getText();
