@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KK_Final.iml" filepath="$PROJECT_DIR$/KK_Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Gui.iml" filepath="$PROJECT_DIR$/Java_Gui.iml" />
     </modules>
   </component>
 </project>
