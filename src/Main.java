@@ -13,6 +13,19 @@ public class Main extends JFrame implements ActionListener {
     DefaultTableModel model;
     JScrollPane scrollpane;
     Object[][] data;
+    public NewJFrame() {
+        initComponents();
+
+        //Set the visibility of the two text field as false
+
+        jLoffice.setEnabled(false);
+        jToffice.setEnabled(false);
+        jLhome.setEnabled(false);
+        jThome.setEnabled(false);
+
+
+
+    }
 
 }
 
