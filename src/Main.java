@@ -32,17 +32,15 @@ public class Main extends JFrame implements  {
     JPanel jPanel1;
     JScrollPane jScrollPane1;
     JTextArea jTextArea1;
-    public NewJFrame() {
+
+    // Constructor
+    public Main() {
         initComponents();
-
         //Set the visibility of the two text field as false
-
-        jLoffice.setEnabled(false);
+       jLoffice.setEnabled(false);
         jToffice.setEnabled(false);
         jLhome.setEnabled(false);
         jThome.setEnabled(false);
-
-
 
     }
 
