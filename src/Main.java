@@ -11,7 +11,7 @@ import javax.swing.JCheckBox;
 import javax.swing.JPanel;
 
 
-public class Main extends JFrame implements  {
+public class Main extends JFrame implements {
 
     List<Details> list = new ArrayList<Details>();
 
@@ -19,7 +19,7 @@ public class Main extends JFrame implements  {
     Object[][] data;
 
     // Variables declaration - do not modify
-    JTextField JTName,jThome,jToffice;
+    JTextField JTName, jThome, jToffice;
     JButton jButton1, jButton2;
     JCheckBox jCHome, jCOffice;
 
@@ -27,7 +27,7 @@ public class Main extends JFrame implements  {
     JPanel jPanel1;
     JScrollPane jScrollPane1;
     JTextArea jTextArea1; // Variables declaration - do not modify
-    JTextField JTName,jThome,jToffice;
+    JTextField JTName, jThome, jToffice;
     JButton jButton1, jButton2;
     JCheckBox jCHome, jCOffice;
 
@@ -40,7 +40,7 @@ public class Main extends JFrame implements  {
     public Main() {
         initComponents();
         //Set the visibility of the two text field as false
-       jLoffice.setEnabled(false);
+        jLoffice.setEnabled(false);
         jToffice.setEnabled(false);
         jLhome.setEnabled(false);
         jThome.setEnabled(false);
@@ -189,18 +189,28 @@ public class Main extends JFrame implements  {
         pack();
     }// </editor-fold>
 
-   //method to display the details
-   private void save_the_details(){
+    //method to display the details
+    private void save_the_details() {
 
-       String name=JTName.getText();
-       String Home=jThome.getText();
-       String Office=jToffice.getText();
-
-
-       list.add(new Details(name, Home,Office));
-       addRows();
+        String name = JTName.getText();
+        String Home = jThome.getText();
+        String Office = jToffice.getText();
 
 
+        list.add(new Details(name, Home, Office));
+        addRows();
 
-   }
+
+    }
+//method to reset the details
+    private void reset(){
+        JTName.setText("");
+        jThome.setText("");
+        jToffice.setText("");
+        jThome.setEnabled(false);
+        jToffice.setEnabled(false);
+        jCOffice.setSelected(false);
+        jCHome.setSelected(false);
+}
+}
 
