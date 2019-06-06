@@ -17,10 +17,11 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="212" column="23" selection-start-line="206" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
+            <state relative-caret-position="168">
+              <caret line="223" column="5" lean-forward="true" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#371#380#0" expanded="true" />
                 <element signature="method#initComponents#0;class#Main#0" />
                 <element signature="e#2192#2193#0" expanded="true" />
                 <element signature="e#2250#2251#0" expanded="true" />
@@ -39,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="372" column="29" selection-start-line="372" selection-start-column="29" selection-end-line="372" selection-end-column="30" />
+              <caret line="367" column="29" selection-start-line="367" selection-start-column="29" selection-end-line="367" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -232,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559822612713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Method to reset the field">
+      <created>1559822694905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559822694905</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Method to add row">
+      <created>1559822870038</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559822870038</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,7 +320,10 @@
     <MESSAGE value="Initialise constractor" />
     <MESSAGE value="Gui component initialisation" />
     <MESSAGE value="Method to display details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method to display details" />
+    <MESSAGE value="Moth to reset the field" />
+    <MESSAGE value="Method to reset the field" />
+    <MESSAGE value="Method to add row" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method to add row" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
@@ -314,6 +332,7 @@
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#371#380#0" expanded="true" />
             <element signature="method#initComponents#0;class#Main#0" />
             <element signature="e#2192#2193#0" expanded="true" />
             <element signature="e#2250#2251#0" expanded="true" />
@@ -330,16 +349,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="372" column="29" selection-start-line="372" selection-start-column="29" selection-end-line="372" selection-end-column="30" />
+          <caret line="367" column="29" selection-start-line="367" selection-start-column="29" selection-end-line="367" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="212" column="23" selection-start-line="206" selection-start-column="8" selection-end-line="212" selection-end-column="23" />
+        <state relative-caret-position="168">
+          <caret line="223" column="5" lean-forward="true" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#371#380#0" expanded="true" />
             <element signature="method#initComponents#0;class#Main#0" />
             <element signature="e#2192#2193#0" expanded="true" />
             <element signature="e#2250#2251#0" expanded="true" />
