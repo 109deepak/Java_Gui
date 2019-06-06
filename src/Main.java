@@ -5,13 +5,16 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.JFrame;
-import javax.swing.table.DefaultTableModel;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JPanel;
 
 
 public class Main extends JFrame implements  {
 
     List<Details> list = new ArrayList<Details>();
-    DefaultTableModel model;
+
     JScrollPane scrollpane;
     Object[][] data;
 
@@ -186,20 +189,18 @@ public class Main extends JFrame implements  {
         pack();
     }// </editor-fold>
 
-}
+   //method to display the details
+   private void save_the_details(){
 
-    class Details {
-        String Name;
-        String OfficeAddress;
-        String HomeAddress;
-
-
-        Details(String name, String Haddress, String Oaddress) {
-            this.Name = id;
-            this.OfficeAddress = name;
-            this.HomeAddress = Oaddress;
+       String name=JTName.getText();
+       String Home=jThome.getText();
+       String Office=jToffice.getText();
 
 
-        }
-    }
+       list.add(new Details(name, Home,Office));
+       addRows();
+
+
+
+   }
 
